@@ -1,4 +1,5 @@
 * {
+<<<<<<< HEAD
     padding: 0;
     margin: 0;
 }
@@ -27,4 +28,93 @@ h1 {
 
 .head1 {
     
+=======
+  padding: 0;
+  margin: 0;
+}
+
+html,body {
+  width: 1000px;
+  height: 1000px;
+}
+
+.page {
+  margin: 30px 30px 30px 30px;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header  {
+  line-height: 225px;
+
+  text-align: center;
+  font-size: 48px;
+  font-weight: bolder;
+  flex: 1;
+
+  border: 1px solid black;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+
+  border: 1px solid black;
+}
+
+img {
+  display: block;
+  overflow: hidden;
+  width: 220px;
+  box-shadow: 0 0 15px 0 #000;
+  border-radius: 50%;
+}
+
+.main > div {
+  width: 400px;
+}
+
+.main-item {
+  height: 50%;
+  display:flex;
+
+  text-align: center;
+}
+
+.main-item > div {
+  width: 50%;
+  height: 100%;
+
+  line-height: 100px;
+  
+  border:1px solid black;
+}
+
+.content {
+  flex: 2;
+}
+
+.content-item {
+  height: 30%;
+
+  display: flex;
+}
+
+.content-item > .item-name {
+  width: 21.5%;
+
+  line-height: 150px;
+
+  text-align: center;
+
+  border: 1px solid black;
+}
+
+.content-item > .item-content {
+  width: 78.5%;
+
+  border: 1px solid black;
+>>>>>>> 3fdc0fcdeddc13dba8cb1ea53ba7c505f79b0c5e
 }
