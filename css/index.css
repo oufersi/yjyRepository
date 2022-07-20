@@ -50,15 +50,38 @@
         border-color: green;
         border-width: 10px;
 
-        box-shadow: 0 0 8px #ccc;
+        box-shadow: 0 0 15px #ccc; /* 水平偏移量 垂直偏移量 ~~ 颜色 方向（内、外（不加inset）） */
         border-radius: 8px;
     }
 
     .circle {
+        display: none;
+
         width: 200px;
         height: 200px;
 
-        border-radius: 50%;
+        border-radius: 80%;
 
         background-color: red;
+        background-image: url("../assets/image-icon.png");
+        background-size: 100%;
+
+        box-shadow: 0 0 15px #ccc;
+    }
+
+    .circle-show {
+        display: block;
+    }
+
+    .button {
+        width: fit-content;
+        
+        box-shadow: 0 0 8px 0 black;
+
+        padding: 8px 16px;
+        border-radius: 8px;
+        margin-top: 32px;
+        margin-left: 32px;
+
+        cursor: pointer;
     }

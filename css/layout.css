@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.page {
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+.avator {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100%;
+    box-shadow: 0 0 8px;
+
+    background-image: url("../assets/image-icon.png");
+    background-color: red;
+
+}
+
+.head1 {
+    
+}
